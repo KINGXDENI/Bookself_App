@@ -276,6 +276,26 @@ footer {
     }
 }
 
+@media (max-width: 768px) {
+    .bookshelf-image {
+        order: -1 !important;
+    }
+
+    .form-image {
+        order: -1 !important;
+    }
+
+    .image-add {
+        max-width: 100%;
+    }
+
+    .add-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 
 @media screen and (max-width:414px) {
     .input_section>h2 {
@@ -354,26 +374,6 @@ footer {
 
 .bg_abu {
     background-color: #4851eb !important;
-}
-
-@media (max-width: 768px) {
-    .bookshelf-image {
-        order: -1 !important;
-    }
-
-    .form-image {
-        order: -1 !important;
-    }
-
-    .image-add {
-        max-width: 100%;
-    }
-
-    .add-button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
 }
 
 .btn-primary {
