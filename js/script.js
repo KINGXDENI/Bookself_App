@@ -34,6 +34,7 @@ bookSubmit.addEventListener("click", function (event) {
                 text: "Buku berhasil ditambahkan ke rak belum selesai dibaca",
                 icon: "success",
                 confirmButtonText: "OK",
+                timer: 1000,
                 showConfirmButton: false
             }).then(() => {
                 resetForm();
