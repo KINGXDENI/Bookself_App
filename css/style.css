@@ -277,10 +277,6 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .bookshelf-image {
-        order: -1 !important;
-    }
-
     .form-image {
         order: -1 !important;
     }
